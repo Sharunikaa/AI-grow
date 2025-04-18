@@ -2,8 +2,7 @@ import pymongo
 from dotenv import load_dotenv
 
 load_dotenv()
-
-MONGODB_URI="mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = "company_data"
 SOURCE_COLLECTIONS = ["reddit_data", "discord_data", "quora_data"]
 TARGET_COLLECTION = "engagement_data"
