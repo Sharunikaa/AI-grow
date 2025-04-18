@@ -8,8 +8,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-
-MONGODB_URI="mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = "company_data"
 TARGET_COLLECTION = "engagement_data"
 
