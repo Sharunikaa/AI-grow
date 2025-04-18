@@ -14,7 +14,7 @@ from dateutil import parser
 import plotly.express as px
 import plotly.graph_objects as go
 
-MONGODB_URI="mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = "company_data"
 TARGET_COLLECTION = "engagement_data"
 PRODUCT_CATEGORIES = ["earbuds", "skincare", "storage", "plushies", "cosmetics", "stationery", "toys", "home goods", "electronics"]
