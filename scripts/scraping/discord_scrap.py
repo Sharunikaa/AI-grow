@@ -6,7 +6,7 @@ import asyncio
 
 load_dotenv()
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-MONGODB_URI="mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
 mongo_client = pymongo.MongoClient(MONGODB_URI)
 db = mongo_client["company_data"]
 collection = db["discord_data"]
