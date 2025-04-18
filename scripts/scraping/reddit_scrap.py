@@ -9,7 +9,7 @@ def fetch_reddit_data(queries, limit_per_query=100):
     CLIENT_ID = os.getenv("REDDIT_CLIENT_ID")
     CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
     USER_AGENT = os.getenv("REDDIT_USER_AGENT")
-    MONGODB_URI="mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    MONGODB_URI = os.getenv("MONGODB_URI")
     DATABASE_NAME = "company_data"
     COLLECTION_NAME = "reddit_data"
     
