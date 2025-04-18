@@ -1,7 +1,7 @@
 ﻿# 🌱 AI-Grow: Engagement Analytics & Assistant Platform
 
 <div align="center">
-  <img src="static/ai_icon.png" alt="AI-Grow Logo" width="150">
+  
   <br>
   <p><strong>Understand, analyze, and optimize your customer engagement with AI</strong></p>
   <p>
