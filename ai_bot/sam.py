@@ -2,10 +2,10 @@ import pymongo
 import requests
 
 # Configuration
-MONGODB_URI = "mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DATABASE_NAME = "company_data"
-COLLECTION_NAME = "top_engagement_posts"  # This collection already contains curated high-engagement questions.
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+MONGODB_URI = os.getenv("MONGODB_URI")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "company_data")
+SLACK_WORKSPACE_URL = os.getenv("SLACK_WORKSPACE_URL")
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 CHATBOT_API_URL = "http://localhost:7000/chatbot_response"
 
 def get_questions():
