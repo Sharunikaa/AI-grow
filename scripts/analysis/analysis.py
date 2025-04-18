@@ -14,8 +14,7 @@ from dateutil import parser
 nltk.download('vader_lexicon')
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-MONGODB_URI = "mongodb+srv://sharunikaa:12345@cluster0.qm9lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
 DATABASE_NAME = "company_data"
 TARGET_COLLECTION = "engagement_data"
 
