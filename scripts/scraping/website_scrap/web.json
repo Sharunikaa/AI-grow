@@ -1,0 +1,162 @@
+{
+    "store_info": {
+      "store_name": "Miniso India",
+      "description": "MINISO is an international product retailer, offering high-quality household goods, cosmetics, and food at affordable prices. Founded by CEO Ye Guofu, MINISO has opened more than 4,200 stores in over 80 countries and regions since 2013, including the US, UK, Canada, Australia, Spain, UAE, India, and Mexico.",
+      "official_website": "https://www.minisoindia.com",
+      "customer_support": {
+        "email": "support@minisoindia.com",
+        "phone": "+91-XXXXXXXXXX",
+        "working_hours": "10:00 AM - 7:00 PM (Monday - Saturday)"
+      },
+      "social_media": {
+        "instagram": "https://www.instagram.com/minisoindia/",
+        "facebook": "https://www.facebook.com/minisoindia/",
+        "twitter": "https://twitter.com/minisoindia"
+      }
+    },
+    "categories": [
+      {
+        "category_name": "Bags and Accessories",
+        "description": "Trendy and functional bags, wallets, and travel accessories designed for everyday use."
+      },
+      {
+        "category_name": "Daily Life Products",
+        "description": "Essentials for home, travel, and work, including storage solutions, hygiene products, and cleaning tools."
+      },
+      {
+        "category_name": "Digital and Electronics",
+        "description": "High-quality electronic accessories like headphones, power banks, and mobile accessories."
+      },
+      {
+        "category_name": "Fashion Accessories",
+        "description": "Stylish and affordable jewelry, sunglasses, hats, and scarves."
+      },
+      {
+        "category_name": "Health and Beauty",
+        "description": "Skincare, cosmetics, and wellness products designed for self-care and beauty."
+      },
+      {
+        "category_name": "Household Items",
+        "description": "Decor, kitchenware, home fragrances, and lifestyle products for a modern home."
+      },
+      {
+        "category_name": "Seasonal Products",
+        "description": "Limited edition collections and festive items for various occasions."
+      },
+      {
+        "category_name": "Stationery and Gifts",
+        "description": "Notebooks, pens, planners, and creative gift ideas for students and professionals."
+      },
+      {
+        "category_name": "Textile",
+        "description": "Soft and comfortable fabrics, including blankets, cushions, and towels."
+      },
+      {
+        "category_name": "Toy Series",
+        "description": "Plush toys, action figures, and fun gadgets for kids and collectors."
+      }
+    ],
+    "products": {
+      "new_arrivals": [
+        {
+          "name": "Sushi Kitten Plush Toy",
+          "category": "Toy Series",
+          "price": 499,
+          "description": "A soft and adorable sushi-inspired kitten plush toy, perfect for cuddling.",
+          "image_url": "https://example.com/images/sushi-kitten.jpg"
+        },
+        {
+          "name": "Fantasy Eau de Parfum (Wonder of Light)",
+          "category": "Health and Beauty",
+          "price": 899,
+          "description": "A luxurious floral fragrance with notes of jasmine, vanilla, and musk.",
+          "image_url": "https://example.com/images/fantasy-wonder-light.jpg"
+        }
+      ],
+      "top_sellers": [
+        {
+          "name": "3-in-1 Makeup Brush",
+          "category": "Health and Beauty",
+          "price": 399,
+          "description": "A compact and versatile makeup brush for foundation, blush, and contouring.",
+          "image_url": "https://example.com/images/makeup-brush.jpg"
+        },
+        {
+          "name": "Scented Candles",
+          "category": "Household Items",
+          "price": 299,
+          "description": "Aromatherapy candles with soothing lavender and vanilla scents.",
+          "image_url": "https://example.com/images/scented-candle.jpg"
+        }
+      ],
+      "popular_products": [
+        {
+          "name": "Miniso Rose Nourishing Concealer",
+          "category": "Health and Beauty",
+          "price": 499,
+          "description": "Lightweight and hydrating concealer that provides smooth coverage.",
+          "image_url": "https://example.com/images/rose-concealer.jpg"
+        },
+        {
+          "name": "Luxury Series 3-Candlewick Scented Candle",
+          "category": "Household Items",
+          "price": 799,
+          "description": "Premium 3-wick scented candle with a long-lasting aroma.",
+          "image_url": "https://example.com/images/luxury-candle.jpg"
+        }
+      ]
+    },
+    "store_locations": [
+      {
+        "store_name": "CYBER HUB",
+        "address": "Miniso, Ground Floor, Building 10A, Cybercity, Gurugram",
+        "timing": "11:00 AM to 9:15 PM",
+        "contact": "+91-XXXXXXXXXX"
+      },
+      {
+        "store_name": "MGF METROPOLIS MALL",
+        "address": "74, Mehrauli-Gurgaon Rd, Maruti Housing Colony, Sector 17, Gurugram",
+        "timing": "11:00 AM to 10:00 PM",
+        "contact": "+91-XXXXXXXXXX"
+      },
+      {
+        "store_name": "MGF METROPOLITAN MALL",
+        "address": "Store No: 75 & 76, Ground Floor, MGF Metropolitan Mall, Gurugram",
+        "timing": "11:00 AM to 10:00 PM",
+        "contact": "+91-XXXXXXXXXX"
+      }
+    ],
+    "customer_testimonials": [
+      {
+        "customer_name": "Shivani",
+        "testimonial": "I am always thrilled to shop at MINISO. Quality products, cute designs, soooo many fab products and GREAT prices!",
+        "purchased_items": ["Makeup Brush", "Scented Candle"]
+      },
+      {
+        "customer_name": "Mohit",
+        "testimonial": "I bought a noodle bowl and storage boxes. I was pleased with the packaging and quality!",
+        "purchased_items": ["Noodle Bowl", "Storage Boxes"]
+      }
+    ],
+    "customer_engagement": {
+      "loyalty_program": {
+        "name": "MINISO Rewards",
+        "benefits": [
+          "Earn points on every purchase",
+          "Exclusive discounts for members",
+          "Early access to sales and new collections"
+        ]
+      },
+      "frequently_asked_questions": [
+        {
+          "question": "Do you offer home delivery?",
+          "answer": "Yes, Miniso India provides home delivery for online orders placed on our website."
+        },
+        {
+          "question": "What is the return policy?",
+          "answer": "Products can be returned within 7 days of purchase with the original receipt, provided they are unused and in original packaging."
+        }
+      ]
+    }
+  }
+  
